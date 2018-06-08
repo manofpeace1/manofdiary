@@ -1,2 +1,2 @@
-**현재:2018** /
-[2017](./posts/2017.md)
+[2018](/manofdiary) / 
+[2017](/manofdiary/2017.html)
