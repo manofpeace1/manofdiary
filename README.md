@@ -6,6 +6,8 @@
 4. assets > img : 이미지 파일 폴더
 5. assets > fonts : 폰트 파일 폴더
 
+*Github Markdown Cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet*
+
 # The Minimal theme
 
 [![Build Status](https://travis-ci.org/pages-themes/minimal.svg?branch=master)](https://travis-ci.org/pages-themes/minimal) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-minimal.svg)](https://badge.fury.io/rb/jekyll-theme-minimal)
