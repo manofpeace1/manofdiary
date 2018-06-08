@@ -1,6 +1,4 @@
-# The Minimal theme
-
-## File Structure
+# Manofdiary File Structure
 
 1. &#95;config.yml : 일기장 제목, 프로필 이미지, 설명 내용을 포함
 2. &#95;layouts > default.html : 사이드바 링크
@@ -8,6 +6,7 @@
 4. assets > img : 이미지 파일 폴더
 5. assets > fonts : 폰트 파일 폴더
 
+# The Minimal theme
 
 [![Build Status](https://travis-ci.org/pages-themes/minimal.svg?branch=master)](https://travis-ci.org/pages-themes/minimal) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-minimal.svg)](https://badge.fury.io/rb/jekyll-theme-minimal)
 
