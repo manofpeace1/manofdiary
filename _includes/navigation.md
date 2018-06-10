@@ -1,2 +1,2 @@
 [2018](/manofdiary) /
-[2017](manofdiary/_includes/2017.html)
+[2017](../_includes/2017.html)
