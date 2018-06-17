@@ -1,6 +1,5 @@
-44442211
-
-  <script>
+5532211
+<script src="jQuery.js">
     $(function(){
     $("#CurrentDiary").load("https://manofpeace1.github.io/manofdiary/diaries/2018.html");
     });
