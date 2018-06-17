@@ -1,14 +1,5 @@
-1232211
+---
+layout: default
+---
 
-<link rel="currentdiary" href="test.html">
-
-/*
-<script src="jQuery.js"></script>
-  <script>
-    $(function(){
-      $("#CurrentDiary").load("test.html");
-    });
-  </script>
-
-<div id="CurrentDiary"></div>
-*/
+{% include 2018.md %}
