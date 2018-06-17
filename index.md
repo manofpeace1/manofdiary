@@ -1,4 +1,8 @@
-1032211
+1232211
+
+<link rel="currentdiary" href="test.html">
+
+/*
 <script src="jQuery.js"></script>
   <script>
     $(function(){
@@ -7,3 +11,4 @@
   </script>
 
 <div id="CurrentDiary"></div>
+*/
