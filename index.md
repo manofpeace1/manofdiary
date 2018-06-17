@@ -2,4 +2,4 @@
 layout: default
 ---
 
-<div current_diary="manofdiary/diaries/2018_copy.html"></div>
+<object type="text/html" data="/diaries/2018.html"></object>
