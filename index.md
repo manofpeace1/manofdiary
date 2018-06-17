@@ -2,4 +2,4 @@
 layout: default
 ---
 
-<object type="text/html" data="/diaries/2018.html"></object>
+<script src="/diaries/2018.html"></script>
