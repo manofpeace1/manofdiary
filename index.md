@@ -1,5 +1,5 @@
 
 12312322
-<script src="../diaries/2018.html"></script>
+<script src="https://manofpeace1.github.io/manofdiary/diaries/2018.html"></script>
 
-<a href="../diaries/2018.html">download</a>
+<a href="https://manofpeace1.github.io/manofdiary/diaries/2018.html">download</a>
