@@ -8,4 +8,4 @@
 #include "/diaries/2018.md"
 
 
-{% include_relative diaries/2018.html %}
+{% include_relative ./_posts/2018.html %}
