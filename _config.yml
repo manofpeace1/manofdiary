@@ -1,6 +1,6 @@
 title:
 logo: /assets/img/avatar.jpg
-description: 💻 <a href="https://play.google.com/store/apps/developer?id=Manof+Studios">📱</a> 🇰🇷🇩🇪 <id=marvel>MARVEL2</id> <a href="https://my.playstation.com/profile/manofpeace0/trophies">🎮</a>
+description: 💻 <a href="https://play.google.com/store/apps/developer?id=Manof+Studios">📱</a> 🇰🇷🇩🇪 <span id=marvel>MARVEL5</span> <a href="https://my.playstation.com/profile/manofpeace0/trophies">🎮</a>
 show_downloads: false
 google_analytics: UA-120539302-1
 theme: jekyll-theme-minimal
