@@ -8,3 +8,6 @@
 6. assets > img : 기타 이미지 파일
 
 *Github Markdown Cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet*
+
+*Github meta API (서버 IP주소 목록)
+https://api.github.com/meta
