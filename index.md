@@ -2,4 +2,4 @@
 layout: default
 ---
 
-{% include 2018.md %}
+{% include_relative /diaries/20181.md %}
