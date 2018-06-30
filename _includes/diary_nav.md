@@ -1,2 +1,2 @@
-[2018](manofdiary.com) /
+[2018](/) /
 [2017](/diaries/2017.html)
