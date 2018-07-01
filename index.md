@@ -1,7 +1,5 @@
 ---
 redirect_from: "/manofdiary/"
-redirect_from: "/manofdiary/diaries"
-redirect_from: "/manofdiary/cartoon"
 layout: default
 ---
 
