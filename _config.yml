@@ -4,3 +4,5 @@ description: <span id=white>_</span>💻 <a href="https://play.google.com/store/
 show_downloads: false
 google_analytics: UA-120539302-1
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-redirect-from
