@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI} ^/manofdiary/(.*)$
+RewriteRule ^(.*) http://manofdiary.com/%1 [R=302,NC]
