@@ -14,5 +14,5 @@
   <a href="/cartoon/2015_12.html">2015년 12월의 만화</a><br/>
   <a href="/cartoon/2015_11.html">2015년 11월의 만화</a><br/>
   <a href="/cartoon/2015_10.html">2015년 10월의 만화</a><br/>
-  <a href="/cartoon/2015_05.html">2015년 5월의 만화</a><br/>
+  <a href="/cartoon/2015_05/cartoon.html">2015년 5월의 만화</a><br/>
 </p>
