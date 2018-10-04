@@ -1,4 +1,5 @@
 <p>
+  <a href="/cartoon/2018_10/cartoon.html">2018년 10월의 만화</a><br/>
   <a href="/cartoon/2018_09/cartoon.html">2018년 9월의 만화</a><br/>
   <a href="/cartoon/2018_08/cartoon.html">2018년 8월의 만화</a><br/>
   <a href="/cartoon/2018_07/cartoon.html">2018년 7월의 만화</a><br/>
