@@ -3,4 +3,4 @@ redirect_from: "/manofdiary/"
 layout: default
 ---
 
-{% include_relative /diaries/2018.md %}
+{% include_relative /diaries/2019.md %}
