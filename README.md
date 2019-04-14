@@ -12,4 +12,4 @@
 
 *Github meta API (서버 IP주소 목록) https://api.github.com/meta*
 
-*도메인 및 DNS 관리 https://godaddy.com*
+*도메인 및 DNS 관리 https://hover.com*
