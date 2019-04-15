@@ -1,5 +1,4 @@
 ---
-redirect_from: "/manofdiary/"
 layout: default
 ---
 
