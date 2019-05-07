@@ -12,7 +12,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body id="body">
     <div class="wrapper" id="sidebar">
       <header>
         <!--<h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>-->
@@ -36,6 +36,7 @@
           <a href="https://www.instagram.com/berlingermanystory/"><img src="/assets/img/instagram.jpg" style="width:20px; height:20px" title="Instagram Logo" alt="Instagram"></a>
           <a href="https://twitter.com/ber_ger_story"><img src="/assets/img/twitter.jpg" style="width:20px; height:20px" title="Twitter Logo" alt="Twitter"></a>
           <a href="https://www.facebook.com/berlingermanystory/"><img src="/assets/img/facebook.jpg" style="width:20px; height:20px" title="Facebook Logo" alt="Facebook"></a><br/>
+          <button onclick="lightOff()">불끄기</button>
           ⓒ manofpeace
           </small>
         </p>
@@ -59,6 +60,11 @@
         </p>
       </section>
     </div>
+    <script>
+      function myFunction() {
+        document.getElementById("body").style.color = "red";
+      }
+    </script>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
