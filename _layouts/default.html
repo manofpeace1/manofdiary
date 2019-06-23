@@ -1,81 +1,97 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css" | append: site.github.build_r7vision | relative_url }}">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--[if lt IE 9]>
+  {% seo %}
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | append: site.github.build_r7vision | relative_url }}">
+
+  <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
-  </head>
-  <body id="body">
-    <div class="wrapper" id="sidebar">
-      <header>
-        <!--<h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>-->
-        {% if site.logo %}
-        <a href="/"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
-        {% endif %}
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <!--{% if site.github.is_project_page %}-->
-        <!--<p class="view"><b>
+</head>
+
+<body id="body">
+  <div class="wrapper" id="sidebar">
+    <header>
+      <!--<h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>-->
+      {% if site.logo %}
+      <a href="/"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
+      {% endif %}
+      <p>{{ site.description | default: site.github.project_tagline }}</p>
+      <!--{% if site.github.is_project_page %}-->
+      <!--<p class="view"><b>
           > 일기장: <a href="/">2019_0415</a><br/>
           > 그림: <a href="/cartoon/2019_04/cartoon.html">2019_0403</a><br/>
         </b></p>-->
-        <p class="view">
-          <small>
-          <a href="https://www.podbbang.com/ch/16706"><img src="/assets/img/marvelmovienews.jpg" style="width:20px; height:20px" title="Marvelmovienews Logo" alt="Marvelmovienews"></a>
-          <a href="https://www.youtube.com/channel/UCtAEFd5-i8v6UizSHkjfZcA"><img src="/assets/img/youtube.jpg" style="width:20px; height:20px" title="Youtube Logo" alt="Youtube"></a>
-          <a href="https://www.lezhin.com/ko/comic/germantoon"><img src="/assets/img/lezhin.jpg" style="width:20px; height:20px" title="Lezhin Logo" alt="Lezhin"></a>
-          <a href="https://photos.app.goo.gl/X31N8is64yd7yzqx9"><img src="/assets/img/drawings.jpg" style="width:20px; height:20px" title="Drawings Logo" alt="Drawings"></a>
-          <a href="https://psnprofiles.com/manofpeace0"><img src="/assets/img/playstation.jpg" style="width:20px; height:20px" title="Playstation Logo" alt="Playstation"></a>
-          <a href="https://play.google.com/store/apps/developer?id=Manof+Studios"><img src="/assets/img/googleplay.jpg" style="width:20px; height:20px" title="Googleplay Logo" alt="Googleplay"></a><br/>
-          <a href="https://www.instagram.com/berlingermanystory/"><img src="/assets/img/instagram.jpg" style="width:20px; height:20px" title="Instagram Logo" alt="Instagram"></a>
-          <a href="https://twitter.com/ber_ger_story"><img src="/assets/img/twitter.jpg" style="width:20px; height:20px" title="Twitter Logo" alt="Twitter"></a>
-          <a href="https://www.facebook.com/berlingermanystory/"><img src="/assets/img/facebook.jpg" style="width:20px; height:20px" title="Facebook Logo" alt="Facebook"></a><br/>
+      <p class="view">
+        <small>
+          <a href="https://www.podbbang.com/ch/16706"><img src="/assets/img/marvelmovienews.jpg"
+              style="width:20px; height:20px" title="Marvelmovienews Logo" alt="Marvelmovienews"></a>
+          <a href="https://www.youtube.com/channel/UCtAEFd5-i8v6UizSHkjfZcA"><img src="/assets/img/youtube.jpg"
+              style="width:20px; height:20px" title="Youtube Logo" alt="Youtube"></a>
+          <a href="https://www.lezhin.com/ko/comic/germantoon"><img src="/assets/img/lezhin.jpg"
+              style="width:20px; height:20px" title="Lezhin Logo" alt="Lezhin"></a>
+          <a href="https://photos.app.goo.gl/X31N8is64yd7yzqx9"><img src="/assets/img/drawings.jpg"
+              style="width:20px; height:20px" title="Drawings Logo" alt="Drawings"></a>
+          <a href="https://psnprofiles.com/manofpeace0"><img src="/assets/img/playstation.jpg"
+              style="width:20px; height:20px" title="Playstation Logo" alt="Playstation"></a>
+          <a href="https://play.google.com/store/apps/developer?id=Manof+Studios"><img src="/assets/img/googleplay.jpg"
+              style="width:20px; height:20px" title="Googleplay Logo" alt="Googleplay"></a><br />
+          <a href="https://www.instagram.com/berlingermanystory/"><img src="/assets/img/instagram.jpg"
+              style="width:20px; height:20px" title="Instagram Logo" alt="Instagram"></a>
+          <a href="https://twitter.com/ber_ger_story"><img src="/assets/img/twitter.jpg" style="width:20px; height:20px"
+              title="Twitter Logo" alt="Twitter"></a>
+          <a href="https://www.facebook.com/berlingermanystory/"><img src="/assets/img/facebook.jpg"
+              style="width:20px; height:20px" title="Facebook Logo" alt="Facebook"></a>
+          <a href="https://github.com/manofpeace1/"><img src="/assets/img/github_manofpeace1.jpg"
+              style="width:20px; height:20px" title="GitHub Logo" alt="GitHub"></a><br />
           ⓒ manofpeace
-          </small>
-        </p>
-        {% endif %}
-        <!--{% if site.github.is_user_page %}
+        </small>
+      </p>
+      {% endif %}
+      <!--{% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}-->
-      </header>
-      <section>
-        <p><button onclick="lightOff()">어둡게</button></p>
-        <p>
-          <a href="/diaries/2019.html">2019</a> /
-          <a href="/diaries/2018.html">2018</a> /
-          <a href="/diaries/2017.html">2017</a>
-        </p>
-        {{ content }}
-        <br/>
-        <p>
-          <a href="/diaries/2019.html">2019</a> /
-          <a href="/diaries/2018.html">2018</a> /
-          <a href="/diaries/2017.html">2017</a>
-        </p>
-      </section>
-    </div>
-    <script>
-      function lightOff() {
-        document.getElementById("body").style.color = "#ffffff";
-        document.getElementById("body").style.backgroundColor = "#000000";
-      }
-    </script>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    {% if site.google_analytics %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', '{{ site.google_analytics }}', 'auto');
-      ga('send', 'pageview');
-    </script>
-    {% endif %}
-  </body>
+    </header>
+    <section>
+      <p><button onclick="lightOff()">어둡게</button></p>
+      <p>
+        <a href="/diaries/2019.html">2019</a> /
+        <a href="/diaries/2018.html">2018</a> /
+        <a href="/diaries/2017.html">2017</a>
+      </p>
+      {{ content }}
+      <br />
+      <p>
+        <a href="/diaries/2019.html">2019</a> /
+        <a href="/diaries/2018.html">2018</a> /
+        <a href="/diaries/2017.html">2017</a>
+      </p>
+    </section>
+  </div>
+  <script>
+    function lightOff() {
+      document.getElementById("body").style.color = "#ffffff";
+      document.getElementById("body").style.backgroundColor = "#000000";
+    }
+  </script>
+  <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  {% if site.google_analytics %}
+  <script>
+    (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {% endif %}
+</body>
+
 </html>
