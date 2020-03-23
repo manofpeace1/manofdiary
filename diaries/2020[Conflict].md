@@ -1,10 +1,6 @@
 <details open>
-    <summary><b>2020년 3월 24일 (화)</b></summary>
-        <ol>
-            <li>오늘은 중요한 회의가 있다. 잘 해내야 한다.</li>
-            <li>아이패드를 보조 모니터로 쓰니 편하다.</li>
-            <li>아이패드로 TFT 하니까 재밌다. 먼 미래에 플스 게임도 아이패드로 할 수 있었으면 좋겠다.</li>
-        </ol>
+    <summary><b>2020년 3월 24일 ()</b></summary>
+        <p>커튼을 직접 달았다. 뿌듯하다.</p>
 </details>
 <details>
     <summary><b>2020년 3월 23일 (월)</b></summary>
