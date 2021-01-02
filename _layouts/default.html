@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: " en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
 
 <head>
   <meta charset="UTF-8">
@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   {% seo %}
-  <link rel="stylesheet" href="{{ " /assets/css/style.css" | append: site.github.build_r7vision | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | append: site.github.build_r7vision | relative_url }}">
 
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -85,7 +85,7 @@
       document.getElementById("body").style.backgroundColor = "#000000";
     }
   </script>
-  <script src="{{ " /assets/js/scale.fix.js" | relative_url }}"></script>
+  <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
   {% if site.google_analytics %}
   <script>
     (function (i, s, o, g, r, a, m) {
