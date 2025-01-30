@@ -74,8 +74,7 @@
         {% endif %}-->
     </header>
     <section>
-      <p><button onclick="lightOff()">어둡게</button></p>
-      <p><button onclick="toggleDarkMode()">불끄기</button></p>
+      <p><button onclick="toggleDarkMode()">어둡게/밝게</button></p>
       <p>
         <a href="/diaries/2025.html">2025</a> /
         <a href="/diaries/2024.html">2024</a> /
@@ -103,12 +102,6 @@
       <p>ⓒ manofpeace</p>
     </section>
   </div>
-  <script>
-    function lightOff() {
-      document.getElementById("body").style.color = "#ffffff";
-      document.getElementById("body").style.backgroundColor = "#000000";
-    }
-  </script>
   <script>
       document.addEventListener('DOMContentLoaded', function() {
           if (localStorage.getItem('darkMode') === 'true') {
