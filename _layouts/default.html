@@ -44,13 +44,14 @@
             style="width:20px; height:20px" title="Youtube Logo" alt="Youtube"></a> -->
           <a href="https://www.instagram.com/berlingermanystory/"><img src="/assets/img/instagram.jpg"
               style="width:20px; height:20px" title="Instagram Logo" alt="Instagram"></a><br />
-          <a href="https://twitter.com/ber_ger_story"><img src="/assets/img/x.jpg" style="width:20px; height:20px" title="X(Twitter) Logo" alt="X(Twitter)"></a>
+          <a href="https://twitter.com/ber_ger_story"><img src="/assets/img/x.jpg" style="width:20px; height:20px"
+              title="X(Twitter) Logo" alt="X(Twitter)"></a>
           <a href="https://www.facebook.com/berlingermanystory/"><img src="/assets/img/facebook.jpg"
               style="width:20px; height:20px" title="Facebook Logo" alt="Facebook"></a>
           <a href="https://psnprofiles.com/manofpeace5"><img src="/assets/img/playstation.jpg"
               style="width:20px; height:20px" title="Playstation Logo" alt="Playstation"></a>
-          <a href="https://www.bookrank.kr"><img src="/assets/img/bookrank.jpg"
-              style="width:20px; height:20px" title="BookrankKorea Logo" alt="Bookrank"></a>
+          <a href="https://www.bookrank.kr"><img src="/assets/img/bookrank.jpg" style="width:20px; height:20px"
+              title="BookrankKorea Logo" alt="Bookrank"></a>
           <a href="https://brunch.co.kr/brunchbook/expectation"><img src="/assets/img/expectation.jpg"
               style="width:20px; height:20px" title="Expectation Logo" alt="Expectation"></a><br /><br />
           <!-- <a href="https://play.google.com/store/apps/developer?id=Manof+Studios"><img src="/assets/img/googleplay.jpg"
@@ -76,6 +77,7 @@
     <section>
       <p><button onclick="toggleDarkMode()">어둡게/밝게</button></p>
       <p>
+        <a href="/diaries/2026.html">2026</a> /
         <a href="/diaries/2025.html">2025</a> /
         <a href="/diaries/2024.html">2024</a> /
         <a href="/diaries/2023.html">2023</a> /
@@ -89,6 +91,7 @@
       {{ content }}
       <br />
       <p>
+        <a href="/diaries/2026.html">2026</a> /
         <a href="/diaries/2025.html">2025</a> /
         <a href="/diaries/2024.html">2024</a> /
         <a href="/diaries/2023.html">2023</a> /
@@ -103,27 +106,27 @@
     </section>
   </div>
   <script>
-      document.addEventListener('DOMContentLoaded', function() {
-          if (localStorage.getItem('darkMode') === 'true') {
-              applyDarkMode();
-          }
-      });
-
-      function toggleDarkMode() {
-          if (localStorage.getItem('darkMode') === 'true') {
-              localStorage.setItem('darkMode', 'false');
-              document.getElementById("body").style.color = "";
-              document.getElementById("body").style.backgroundColor = "";
-          } else {
-              applyDarkMode();
-          }
+    document.addEventListener('DOMContentLoaded', function () {
+      if (localStorage.getItem('darkMode') === 'true') {
+        applyDarkMode();
       }
+    });
 
-      function applyDarkMode() {
-          document.getElementById("body").style.color = "#ffffff";
-          document.getElementById("body").style.backgroundColor = "#000000";
-          localStorage.setItem('darkMode', 'true');
+    function toggleDarkMode() {
+      if (localStorage.getItem('darkMode') === 'true') {
+        localStorage.setItem('darkMode', 'false');
+        document.getElementById("body").style.color = "";
+        document.getElementById("body").style.backgroundColor = "";
+      } else {
+        applyDarkMode();
       }
+    }
+
+    function applyDarkMode() {
+      document.getElementById("body").style.color = "#ffffff";
+      document.getElementById("body").style.backgroundColor = "#000000";
+      localStorage.setItem('darkMode', 'true');
+    }
   </script>
   <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
   {% if site.google_analytics %}
